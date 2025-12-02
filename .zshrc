@@ -82,7 +82,6 @@ function in {
 }
 
 alias man="batman"
-alias fetch="fastfetch"
 alias grep="grep --color=auto"
 alias cat='bat'
 alias shell="exec $SHELL -l"
@@ -99,7 +98,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 
 bindkey -s '^F' 'fzf\n'
-# fzf should be able to open appropriate app based on file type 
 
 # pnpm
 export PNPM_HOME="/home/karan/.local/share/pnpm"
