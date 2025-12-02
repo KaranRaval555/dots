@@ -101,14 +101,6 @@ alias ...='cd ../..'
 bindkey -s '^F' 'fzf\n'
 # fzf should be able to open appropriate app based on file type 
 
-# Lazy-load conda
-conda() {
-    unset -f conda
-    source "$HOME/miniconda3/etc/profile.d/conda.sh"
-    conda "$@"
-}
-
-
 # pnpm
 export PNPM_HOME="/home/karan/.local/share/pnpm"
 case ":$PATH:" in
